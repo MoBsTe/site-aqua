@@ -141,28 +141,28 @@ body {
 
 .bannerimg-img1 {
     grid-area: ferst;
-    background-image: url(banner-img-left.png);
+    background-image: url(img/banner-img-left.png);
     width: 416px;
     height: 258px;
 }
 
 .bannerimg-img2 {
     grid-area: two;
-    background-image: url(banner-img-left.png);
+    background-image: url(img/banner-img-left.png);
     width: 416px;
     height: 258px;
 }
 
 .bannerimg-img3 {
     grid-area: thre;
-    background-image: url(banner-img-left.png);
+    background-image: url(img/banner-img-left.png);
     width: 416px;
     height: 258px;
 }
 
 .bannerimg-img4 {
     grid-area: fore;
-    background-image: url(banner-img-left.png);
+    background-image: url(img/banner-img-left.png);
     width: 416px;
     height: 258px;
 }
@@ -631,7 +631,7 @@ p {
     grid-area: ferst;
     width: 416px;
     height: 258px;
-    background-image: url(/banner-img-left.png);
+    background-image: url(img/banner-img-left.png);
 }
 
 .cart1 p {
@@ -648,7 +648,7 @@ p {
     grid-area: two;
     width: 416px;
     height: 258px;
-    background-image: url(/banner-img-left.png);
+    background-image: url(img/banner-img-left.png);
 }
 
 .cart2 p {
@@ -665,7 +665,7 @@ p {
     grid-area: three;
     width: 416px;
     height: 258px;
-    background-image: url(/banner-img-left.png);
+    background-image: url(img/banner-img-left.png);
 }
 
 .cart3 p {
@@ -682,7 +682,7 @@ p {
     grid-area: four;
     width: 416px;
     height: 258px;
-    background-image: url(/banner-img-left.png);
+    background-image: url(img/banner-img-left.png);
 }
 
 .cart4 p {
@@ -699,7 +699,7 @@ p {
     grid-area: five;
     width: 416px;
     height: 258px;
-    background-image: url(/banner-img-left.png);
+    background-image: url(img/banner-img-left.png);
 }
 
 .cart5 p {
@@ -716,7 +716,7 @@ p {
     grid-area: six;
     width: 416px;
     height: 258px;
-    background-image: url(/banner-img-left.png);
+    background-image: url(img/banner-img-left.png);
 }
 
 .cart6 p {
@@ -779,7 +779,7 @@ p {
 }
 
 .session-img {
-    background-image: url(/session-img.png);
+    background-image: url(img/session-img.png);
     width: 636px;
     height: 394px;
 }
