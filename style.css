@@ -783,3 +783,131 @@ p {
     width: 636px;
     height: 394px;
 }
+
+.blog-title {
+    text-align: center;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 59px;
+    font-family: 'El Messiri', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* .ferst-section-blog {
+    padding-top: ;
+} */
+.ferst-blog-secrion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    border: 2px solid #018abe;
+    padding: 40px 40px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.ferst-blog-cart {
+    display: grid;
+    grid-template-areas: "ferst two";
+    grid-row-gap: 24px;
+    grid-column-gap: 50px;
+}
+
+.ferst-blog-img {
+    background-image: url(img/session-img.png);
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 430px;
+}
+
+.ferst-blog-title {
+    width: 564px;
+    height: 198px;
+}
+
+.ferst-blog-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    font-family: 'El Messiri', sans-serif;
+    color: #fff;
+}
+
+.ferst-blog-title p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: 'El Messiri', sans-serif;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.ferst-section-btn {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #018abe;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/* hhdghfsgfhdsjfskfhskf */
+.two-blog-secrion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    border: 2px solid #018abe;
+    padding: 40px 40px;
+    border-radius: 20px;
+    margin-bottom: 110px;
+}
+
+.two-blog-cart {
+    display: grid;
+    grid-template-areas: "ferst two";
+    grid-row-gap: 24px;
+    grid-column-gap: 50px;
+}
+
+.two-blog-img {
+    background-image: url(img/session-img.png);
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 430px;
+}
+
+.two-blog-title {
+    width: 564px;
+    height: 198px;
+}
+
+.two-blog-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    font-family: 'El Messiri', sans-serif;
+    color: #fff;
+}
+
+.two-blog-title p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: 'El Messiri', sans-serif;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.two-section-btn {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #018abe;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.bottom-line-blog {
+    border-bottom: 1px solid white;
+    margin-bottom: 100px;
+}
