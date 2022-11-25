@@ -102,6 +102,14 @@ body {
     line-height: 90px;
     color: #fff;
     text-align: center;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.main-img-description._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .main-descriptiion {
@@ -123,6 +131,14 @@ body {
     align-items: end;
     padding: 5px;
     padding-bottom: 150px;
+    transform: translate(0px, 70%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.banner._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .banner-content {
@@ -205,6 +221,14 @@ body {
     justify-content: center;
     padding: 5px;
     padding-bottom: 150px;
+    transform: translate(0px, 70%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.reviews-container._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .cont-Alekc {
@@ -320,6 +344,14 @@ p {
     grid-column-gap: 25px;
     grid-row-gap: 10px;
     padding-left: 140px;
+    transform: translate(0px, 50%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.AboutUs-contant._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .contantAb {
@@ -411,6 +443,14 @@ p {
     display: grid;
     grid-template-areas: "ferst two";
     align-items: center;
+    transform: translate(0px, 70%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.cost-container._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .cost-items {
@@ -539,6 +579,10 @@ p {
     justify-content: center;
 }
 
+.ferst-cart-title .fa {
+    padding-right: 10px;
+}
+
 .ferst-cart-btn {
     text-align: center;
     margin-top: 30px;
@@ -573,6 +617,10 @@ p {
     color: #fff;
     font-family: 'El Messiri', sans-serif;
     justify-content: center;
+}
+
+.two-cart-title .fa {
+    padding-right: 10px;
 }
 
 .two-cart-btn {

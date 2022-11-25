@@ -14,6 +14,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -27,10 +31,10 @@
             <nav class="header-nav">
                 <a href="#" class="header-link">Главная</a>
                 <a href="sessions.html" class="header-link">Сеансы</a>
-                <a href="#" class="header-link">Отзывы</a>
+                <a href="#reviews" class="header-link">Отзывы</a>
                 <a href="#" class="header-link">Контакты</a>
                 <a href="news.html" class="header-link">Новости</a>
-                <a href="#" class="header-link">Обо мне</a>
+                <a href="#AboutUs" class="header-link">Обо мне</a>
                 <a href="blog.html" class="header-link">Блог</a>
             </nav>
             <div class="main-button">
@@ -47,16 +51,16 @@
             <div class="main-img-text">
                 Укрепление здоровья
             </div>
-            <div class="main-img-description">
+            <div class="main-img-description _anim-items  ">
                 Акватерапия <br>
                 RitmStyle
             </div>
 
-            <div class="main-descriptiion">
+            <div class="main-descriptiion ">
                 Сеансы RitmStyle
             </div>
 
-            <section class="banner">
+            <section class="banner _anim-items ">
                 <div class="banner-img-contaiiner">
                     <img src="img/banner-img.png" alt="banner" class="baner-img">
                 </div>
@@ -87,12 +91,12 @@
                     </div>
                 </div>
             </section>
-            <div class="reviews">
+            <div class="reviews" id="reviews">
                 Отзывы
             </div>
 
 
-            <section class="reviews-container">
+            <section class="reviews-container _anim-items">
                 <div class="cont-Alekc">
                     <div class="Alekc">
                         Александра Дмитриева
@@ -139,11 +143,11 @@
                     </div>
                 </div>
             </section>
-            <div class="AboutUs">
+            <div class="AboutUs" id="AboutUs">
                 Об RitmStyle
             </div>
 
-            <section class="AboutUs-contant">
+            <section class="AboutUs-contant _anim-items">
                 <div class="contantAb">
                     <div class="Ritmstyle">
                         <div class="rit">
@@ -183,7 +187,7 @@
             </div>
 
             <section class="cosr-contant">
-                <div class="cost-container">
+                <div class="cost-container _anim-items">
                     <div class="cost-items">
                         <p> RitmStyle с погружением <span class="span1 sp"> 1000p </span> </p>
                         <p> Абонемент на RitmStyle <span class="span2 sp"> 5500p </span> </p>
@@ -213,9 +217,10 @@
                             <div class="ferst-cart">
                                 <div class="ferst-cart-title">
                                     <h2>Бассейн WorkClass</h2>
-                                    <p>Невский 140</p>
-                                    <p>м. Спасская</p>
-                                    <p>Запись по договоренности</p>
+
+                                    <p><i class="fa fa-location-arrow"></i>Невский 140</p>
+                                    <p><i class="fa fa-arrow-circle-o-down"></i> м. Спасская</p>
+                                    <p><i class="fa fa-calendar"></i>Запись по договоренности</p>
                                     <div class="ferst-cart-btn">
                                         <a class="ferst-btn" href="№">Запись на сеанс</a>
                                     </div>
@@ -224,9 +229,9 @@
                             <div class="two-cart">
                                 <div class="two-cart-title">
                                     <h2>Бассейн "На Гороховой"</h2>
-                                    <p>3-й проезд Иванова</p>
-                                    <p>м. Крестовский остров</p>
-                                    <p>Запись по договоренности</p>
+                                    <p><i class="fa fa-location-arrow"></i>3-й проезд Иванова</p>
+                                    <p><i class="fa fa-arrow-circle-o-down"></i>м. Крестовский остров</p>
+                                    <p><i class="fa fa-calendar"></i>Запись по договоренности</p>
                                     <div class="two-cart-btn">
                                         <a class="two-btn" href="№">Запись на сеанс</a>
                                     </div>
@@ -240,7 +245,7 @@
         </main>
     </div>
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>
